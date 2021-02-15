@@ -1,0 +1,74 @@
+body{
+    background-color: #ebf3ec;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stage{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 320px;
+    border-radius: 14px;
+    box-shadow: 5px 5px gray;
+    display: inline-block;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: #7d7ab9;
+    border: 1px solid  #ebf3ec;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button{
+    background-color: #7d7ab9;
+    border-radius: 14px;
+    border:1px solid #7d7ab9;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    width: 130px;
+    margin: 15px;
+    box-shadow: 5px 5px gray;
+}
+.button:hoover{
+    background-color: #7d7ab9;
+}
+.button:active{
+    top: 1px;
+    position: relative;
+}
+.o{
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    border-radius: 3px;
+    content: "";
+    background: transparent url("https://www.aufin.com.br/jogo_da_velha_aufin/Foto%20perfil-01.jpg") center center no-repeat;
+    font-size: 50px;
+    line-height: 100px;
+    height: 100px;
+    background-size: contain;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.x{
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    border-radius: 3px;
+    content: "";
+    background: transparent url("https://www.aufin.com.br/jogo_da_velha_aufin/Foto%20perfil-03.jpg") center center no-repeat;
+    font-size: 50px;
+    line-height: 100px;
+    height: 100px;
+    background-size: contain;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
